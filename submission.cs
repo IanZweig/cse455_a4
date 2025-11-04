@@ -17,7 +17,6 @@ namespace ConsoleApp1
     public static string xmlURL = "https://ianzweig.github.io/cse455_a4/Hotels.xml";
     public static string xmlErrorURL = "https://ianzweig.github.io/cse455_a4/HotelsErrors.xml";
     public static string xsdURL = "https://ianzweig.github.io/cse455_a4/Hotels.xsd";
-    public string output = "";
     public static void Main(string[] args)
     {
       string result = Verification(xmlURL, xsdURL);
@@ -30,7 +29,7 @@ namespace ConsoleApp1
     // Q2.1
     public static string Verification(string xmlUrl, string xsdUrl)
     {
-      output = "";
+      string output = "";
       //return "No Error" if XML is valid. Otherwise, return the desired exception message.
       // Create the XmlSchemaSet class.
       XmlSchemaSet sc = new XmlSchemaSet();
@@ -44,10 +43,7 @@ namespace ConsoleApp1
       settings.ValidationEventHandler += new ValidationEventHandler(ValidationCallBack);
       XmlReader reader = XmlReader.Create(xmlUrl, settings);
       while (reader.Read());
-      if(output.equals(""))
-      {
-        output = "No errors are found";
-      }
+      
       return output;
     }
     public static string Xml2Json(string xmlUrl)
@@ -61,7 +57,7 @@ namespace ConsoleApp1
 
     private static void ValidationCallBack(object sender, ValidationEventArgs e)
     {
-      output += e.Message;
+      Console.WriteLine("Validation Error: {0}", e.Message);
     }
   }
 }
