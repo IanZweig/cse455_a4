@@ -43,27 +43,19 @@ namespace ConsoleApp1
       settings.ValidationEventHandler += new ValidationEventHandler(ValidationCallBack);
       XmlReader reader = XmlReader.Create(xmlUrl, settings);
       while (reader.Read());
-      private static void ValidationCallBack(object sender, ValidationEventArgs e)
-      {
-        if(!output)
-        {
-          output += "\n";
-        }
-        output += e.Message;
-      }
-      
-      if(output)
-      {
-        output = "No errors are found";
-      }
       
       return output;
     }
     public static string Xml2Json(string xmlUrl)
     {
       // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. 
-      (JsonConvert.DeserializeXmlNode(jsonText))
+      string jsonText = "";
       return jsonText;
+    }
+
+    private static void ValidationCallBack(object sender, ValidationEventArgs e)
+    {
+      Console.WriteLine("Validation Error: {0}", e.Message);
     }
   }
 }
