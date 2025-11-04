@@ -16,7 +16,7 @@ namespace ConsoleApp1
   {
     public static string xmlURL = "https://ianzweig.github.io/cse_a4/Hotels.xml";
     public static string xmlErrorURL = "https://ianzweig.github.io/cse_a4/HotelsErrors.xml";
-    public static string xsdURL = "https://ianzweig.github.io/cse_a4/Hotels.xmd";
+    public static string xsdURL = "https://ianzweig.github.io/cse_a4/Hotels.xsd";
     public static void Main(string[] args)
     {
       string result = Verification(xmlURL, xsdURL);
