@@ -48,7 +48,7 @@ namespace ConsoleApp1
     }
     public static string Xml2Json(string xmlUrl)
     {
-      XmlDocument doc = new XmlDocumunet();
+      XmlDocument doc = new XmlDocument();
       doc.Load(xmlUrl);
       // The returned jsonText needs to be de-serializable by Newtonsoft.Json package.
       string jsonText = JsonConvert.SerializeXmlNode(doc);
