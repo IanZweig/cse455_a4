@@ -26,15 +26,42 @@ namespace ConsoleApp1
       result = Xml2Json(xmlURL);
       Console.WriteLine(result);
     }
-// Q2.1
+    // Q2.1
     public static string Verification(string xmlUrl, string xsdUrl)
     {
-//return "No Error" if XML is valid. Otherwise, return the desired
-      exception message.
+      string output = "";
+      //return "No Error" if XML is valid. Otherwise, return the desired exception message.
+      // Create the XmlSchemaSet class.
+      XmlSchemaSet sc = new XmlSchemaSet();
+      // Add the schema to the collection before performing validation
+      sc.Add(null, xsdURL);
+      // Define the validation settings.
+      XmlReaderSettings settings = new XmlReaderSettings();
+      settings.ValidationType = ValidationType.Schema;
+      settings.Schemas = sc; // Association
+
+      settings.ValidationEventHandler += new ValidationEventHandler(ValidationCallBack);
+      XmlReader reader = XmlReader.Create(xmlUrl, settings);
+      while (reader.Read());
+      private static void ValidationCallBack(object sender, ValidationEventArgs e)
+      {
+        if(!output)
+        {
+          output += "\n";
+        }
+        output += e.Message;
+      }
+      
+      if(output)
+      {
+        output = "No errors are found";
+      }
+      
+      return output;
     }
     public static string Xml2Json(string xmlUrl)
     {
-// The returned jsonText needs to be de-serializable by Newtonsoft.Json package. 
+      // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. 
       (JsonConvert.DeserializeXmlNode(jsonText))
       return jsonText;
     }
