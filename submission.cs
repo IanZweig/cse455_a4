@@ -14,9 +14,9 @@ namespace ConsoleApp1
 {
   public class Program
   {
-    public static string xmlURL = "Your XML URL";
-    public static string xmlErrorURL = "Your Error XML URL";
-    public static string xsdURL = "Your XSD URL";
+    public static string xmlURL = "https://ianzweig.github.io/cse_a4/Hotels.xml";
+    public static string xmlErrorURL = "https://ianzweig.github.io/cse_a4/HotelsErrors.xml";
+    public static string xsdURL = "https://ianzweig.github.io/cse_a4/Hotels.xmd";
     public static void Main(string[] args)
     {
       string result = Verification(xmlURL, xsdURL);
