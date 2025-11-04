@@ -1,4 +1,83 @@
 <Hotels>
+  
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.3</Rating>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Tempe Oasis</Name>
+    <Phone>480-219-9837</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1635</Number>
+      <Street>N. Scottsdale Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85288</Zip>
+    </Address>
+    <Rating>4.6</Rating>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Hyatt Place Tempe</Name>
+    <Phone>480-207-1578</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>601</Number>
+      <Street>E. 6th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.3</Rating>
+  </Hotel>
+  
+  <Hotel>
+    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
+    <Phone>480-642-6140</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>E. Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Mariott Phoenix Airport</Name>
+    <Phone>602-273-7373</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1101</Number>
+      <Street>N. 44th Street</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85008</Zip>
+    </Address>
+    <Rating>4.3</Rating>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Drury Inn & Suites</Name>
+    <Phone>602-437-8400</Phone>
+    <Phone>800-378-7946</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>3333</Number>
+      <Street>E. University Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+    <Rating>4.6</Rating>
+  </Hotel>
+
   <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -10,5 +89,44 @@
       <Zip>85281</Zip>
     </Address>
     <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Phoenician</Name>
+    <Phone>480-941-8200</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>6000</Number>
+      <Street>E. Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+    <Rating>4.6</Rating>
   </Hotel>
 </Hotels>
