@@ -16,22 +16,22 @@
 	
 	<xsd:complexType name="HotelDetails">
 		<xsd:sequence>
-			<xsd:element name="Name" type="xs:string"/>
+			<xsd:element name="Name" type="xsd:string"/>
 			<xsd:element name="Phone" type="PhoneType" maxOccurs="unbounded"/>
 			<xsd:element name="Address" type="AddressType"/>
 		</xsd:sequence>
-		<xsd:attribute name="Rating" type="xs:decimal" use="optional"/>
+		<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
 	</xsd:complexType>
 	
 	<xsd:complexType name="Address">
 		<xsd:sequence>
-			<xsd:element name="Number" type="xs:integer"/>
-			<xsd:element name="Street" type="xs:string"/>
-			<xsd:element name="City" type="xs:string"/>
-			<xsd:element name="State" type="xs:string"/>
-			<xsd:element name="Zip" type="xs:integer"/>
+			<xsd:element name="Number" type="xsd:integer"/>
+			<xsd:element name="Street" type="xsd:string"/>
+			<xsd:element name="City" type="xsd:string"/>
+			<xsd:element name="State" type="xsd:string"/>
+			<xsd:element name="Zip" type="xsd:integer"/>
 		</xsd:sequence>
-		<xsd:attribute name="NearestAirport" type="xs:string" use="required"/>
+		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 	</xsd:complexType>
 			
 			
