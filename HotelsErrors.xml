@@ -1,1 +1,122 @@
+<Hotel>
+  
+  <Hotel Rating="4.3">
+    <Name>Westin</Name>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.6">
+    <Name>Tempe Oasis</Name>
+    <Phone>480-219-9837</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1635</Number>
+      <Street>N. Scottsdale Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85288</Zip>
+  </Hotel>
+  
+  <Hotel Rating="4.3">
+    <Name>Hyatt Place Tempe</Name>
+    <Phone>480-207-1578</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>601</Number>
+      <Street>E. 6th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
+    <Phone>480-642-6140</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>E. Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.3">
+    <Name>Mariott Phoenix Airport</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1101</Number>
+      <Street>N. 44th Street</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85008</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.6">
+    <Name>Drury Inn and Suites</Name>
+    <Phone>602-437-8400</Phone>
+    <Phone>800-378-7946</Phone>
+    <Address>
+      <Number>3333</Number>
+      <Street>E. University Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
 
+  <Hotel>
+    <Name>Four Points by Sheraton</Name>
+    <Phone>480-579-2100</Phone>
+    <Address NearestAirport="Mesa Gateway">
+      <Number>6850</Number>
+      <Street>E. Williams Field Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85212</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Tempe Mission Palms</Name>
+    <Phone>480-894-1400</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>60</Number>
+      <Street>E. 5th Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Residence Inn</Name>
+    <Phone>480-967-2300</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>510</Number>
+      <Street>S. Forest Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>The Phoenician</Name>
+    <Phone>480-941-8200</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>6000</Number>
+      <Street>E. Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
